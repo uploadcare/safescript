@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script type="text/javascript" src="./index.js" defer async></script>
+  <style type="text/css">safescript {display: none !important}</style>
+</head>
+<body>
+
+<safescript>
+  console.log(&quot;&lt;p> 11&lt;/p> &lt;!--` и `&lt;script&quot;);
+</safescript>
+
+<safescript>
+  var s = "22&lt;/script>&lt;script>alert('whoops!')&lt;/script>";
+  console.log(s);
+</safescript>
+
+</body>
+</html>

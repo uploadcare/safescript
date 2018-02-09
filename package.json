@@ -1,6 +1,6 @@
 {
   "name": "safescript",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Safe way to embed your script in HTML",
   "main": "index.js",
   "scripts": {
