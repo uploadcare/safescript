@@ -36,13 +36,21 @@ With `<safescript>` you **must** escape every HTML special character with
 HTML entities. But once you do this you could be sure that script content
 will be decoded correctly.
 
+```bash
+$ npm install safescript
+```
+
 ```html
+<script src="./node_modules/safescript/index.js"></script>
 <safescript>
   window.__INITIAL_STATE__ = <%= JSON.stringify(initialState) %>;
 </safescript>
 ```
 
+Actual HTML will transformed to this:
+
 ```html
+<script src="./node_modules/safescript/index.js"></script>
 <safescript>
   window.__INITIAL_STATE__ = {
     &#34;user&#34;: {
