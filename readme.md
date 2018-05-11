@@ -10,7 +10,7 @@ can even be impossible under certain circumstances.
 The problems with escaping often make the `<script>` element a source of
 vulnerabilities.
 
-Instead of following uncertain rulesб you can use `<safescript>` which follows
+Instead of following uncertain rules, you can use `<safescript>` which follows
 regular HTML escaping rules via HTML entities.
 
 For example, your EJS template could look like this:
