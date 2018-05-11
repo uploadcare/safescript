@@ -49,6 +49,7 @@ will be decoded correctly.
       &#34;name&#34;:&#34;&lt;/script&gt;&lt;script&gt;alert(document.location)&lt;/script&gt;&#34;
     }
   };
-</safescript>```
+</safescript>
+```
 
 [article]: https://blog.uploadcare.com/vulnerability-in-html-design-the-script-tag-33d24642359e
